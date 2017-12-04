@@ -3,8 +3,8 @@ var list = document.getElementById('list'),
     countItem = 0;
 
 addButton.addEventListener('click', function(e) {
-countItem += 1;
-var li = document.createElement('li');
-li.innerHTML = 'item ' + countItem;
-list.appendChild(li);
+        countItem += 1;
+        var li = document.createElement('li');
+        li.innerHTML = 'item ' + countItem;
+        list.appendChild(li);
 });
